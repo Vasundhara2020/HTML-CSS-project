@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #d2cad6;
+  color: #3c3939;
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+header ul a {
+  text-decoration: none;
+  color: #0e93a2;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+header ul a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+div.search {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+input {
+  width: 169px;
+  height: 21px;
+}
+button {
+  background-color: green;
+  color: #f1e8dd;
+  border: 1px solid white;
+  padding: 8px;
+  width: 83px;
+  border-radius: 14%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: green;
+  border: 1px solid black;
+  font-weight: 700;
+}
+
+section.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-section-left h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  font-weight: 600px;
+}
+.main-section-left h1 span {
+  color: #0e93a2;
+  font-weight: 900px;
+  background-color: #c9dde0;
+}
+.main-section-left p {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.main-section-left p span {
+  color: #0e93a2;
+  font-weight: 900;
+}
+
+.main-section-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 40%; */
+  gap: 30px;
+}
+.main-section-right .btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 107px;
+}
+.main-section-right img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 70px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+footer ul li a i {
+  color: black;
+}
+footer ul li a i:hover {
+  color: green;
+}
